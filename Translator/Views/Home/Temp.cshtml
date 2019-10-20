@@ -1,0 +1,71 @@
+﻿
+
+
+@model IEnumerable<Translator.Models.Data.Glossary>
+
+
+
+@{
+    ViewData["Title"] = "Переводчик";
+}
+@*@using X.PagedList;
+    @using X.PagedList.Mvc.Core*@
+@if (TempData["DelTranslate"] != null)
+{
+    <div class="alert alert-success sucsdelcat">Перевод удален</div>
+}
+<h2>Здесь добавляются переводы</h2>
+
+@*<p>
+        <a asp-action="Create">Create New</a>
+    </p>*@
+<table class="table sorting mycategor" id="pages">
+    <thead class="home">
+        <tr>
+            <th>
+                <h2>Входящий текст</h2>
+            </th>
+            <th>
+                <h2>Перевод</h2>
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="id_@item.Id" class="@item.English">
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Russian)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.English)
+                </td>
+                <td>
+
+                    <a asp-action="DelTranslate" asp-route-id="@item.Id" class="deleteresult">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@*@Html.PagedListPager((IPagedList)ViewBag.OnePageOfProducts, page => Url.Action("Index", new { page }))*@
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script>
+        $(function () {
+
+
+            $(".deleteresult").click(function () {
+                if (!confirm("Вы уверенны?")) return false;
+
+            });
+
+        });
+    </script>
+
+}

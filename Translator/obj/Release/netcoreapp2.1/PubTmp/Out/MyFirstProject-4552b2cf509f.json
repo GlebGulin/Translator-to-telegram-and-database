@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "crafty-campaign-256315",
+  "private_key_id": "4552b2cf509f46a2e3f3f3e84292f491645cbaff",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFzkGQztY6GM8m\nwUe1jpjon1cHbZN2oJbCh99AYzMtY0E4k8ahreMjHFpmtX62ExCDA6B6Widx7ISu\nMlkqwcgFvdCGAq7BQyW5Nj/AwPjbG9iZq3nebKAK7deHidQpzA2XYofJxkCSdPoa\n30zl4XvY4T9pOpCUUdH+fuWozZH+rQTN2M1j2sa0QYfUgLNxG5OW1LAuEDHc8BvP\nn0dvhWbIH6o0OqMmYY916bYl5h6X4h7vwZBv7ebW/iSzxLxeEJUpPWVOTQvBMXpd\nfiuf4Vbyxa34+EFqZfzb+qa731mWWjpcT4wBUgQu+l/laGWt8UGVntrrjL605AMz\nsTMHa/SlAgMBAAECggEACHti89zuskCQl3KXytkBxQ3aG0MvXNmfhVlysQ3f6q0U\nJaMulA3DDOUhGkDjnVadcWTFK6H0iY3RFbAqgysakuZ0C98PE9H3iuTg4HjV4v1j\ncRl5iRhi130h7hmyq5UoqwpqVLRn3e/erqrPHxdnamIkSDSe8QE+LjnOSsn/3eoF\ngvOkBJ7B9F3FVS8BA/cR5tiC787tFCbft+oP8/9HvpPYyssAejC3owiscYaZ2oqo\nGXpf3HwNu+Wv9V0EjeJ6TynKv/ZxDg25zmCIdj4eKWf5/Ief5QN4iucEY6XN7/A2\nGJ2iBnzQ1q5NNJIoDeL4u3GJBbIqjDZRifRy6q5n2QKBgQD4khqaNxMoHb+MtFSG\n1FksRGjPPLq9mMysprj3sSMQOJAndM+5hGFjcd2ASiro9pgJ4dEOCKlPJkKLzzkH\nzKfYKQc7L1DyfJUJc0No0bsO7avNU3uQR8r3q1rIA1fnt0Imy7eHNOlJW9c97LyY\nOv/9j8iYxYA7MLX4BL3lLqTVKQKBgQDLt7t4RQI7fOmJt2fBTh0fqRs2BOiyaKBW\nYN/yaU2GDptu6/tdZa2QflwxplhzW1PRCilSYuczPV43EySdsHJmQ/RPibU/dcbh\nosHeoeplH2RnMX15HzOlHnIRch4hkmDhi+1W12aJXESkroJvF+P6T9PNTFB+eLyh\nVCnzN9Q3HQKBgEnv+6W/mB0orB+ITFRGubenKZ3rLIjU+Jyqgv56XDmo+YgjAN7n\n96gC6KYOabEeGJ9n4i1Qejwm30iC/S3KvGpZ2eLK8kMOt6418Oku6XtJSv8qQ+jo\n0gDVoY05IV61biHoGtFG9dVyUhYDYx3M/vRHXp3CsZ/pn1cE4g9XzoPxAoGAPDd3\nJrnfSw5FSfv4o18fpLgr3u/ciL/8hQvlppYR4Ep5D3SZvKXNhCSVw+dTxeV9BRFn\n3X52sOK28rip3iLF7gywLsKZ3MRHoXKms9RQoMuCti4e1KqwbWJufVGqLmpCUOk3\noq/RE1E+yR78VzJMpTTreofQU1IFD/r823PpOtECgYEArrK+YyiufU0VHNfrO/yt\na0dK/H+YEA/MGloB8cSvQnzRPOJv3L96cb5m+Pf8JwNe6tpJAVEOQE+9oeg4NXfi\ndJXWojguYk5HW7LzVdTXHa6QWDfRtly7WxXN9mUWbi7WYvg08pJk4RlP/jOklc34\nbSdj+vikuOyaj1Lsuajt0kY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gulintranslator@crafty-campaign-256315.iam.gserviceaccount.com",
+  "client_id": "102580464609145697870",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gulintranslator%40crafty-campaign-256315.iam.gserviceaccount.com"
+}
